@@ -1,6 +1,6 @@
-import styles from './Form.module.css';
-import Input from '../input';
-import Button from '../button';
+import styles from './Form.module.css'
+import Input from '../input-fatec'
+import Button from '../button-fatec'
 
 function Form() {
     return (
@@ -10,7 +10,7 @@ function Form() {
             <Input type="text" label="Telefone" placeholder="Digite seu telefone" mask="(00) 00000-0000" />
             <Button type='submit' label='Enviar'/>
         </form>
-    );
+    )
 }
 
-export default Form;
+export default Form
