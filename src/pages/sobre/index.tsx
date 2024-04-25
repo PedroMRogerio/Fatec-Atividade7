@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom"
+import Layout from "../../components/layout"
 
-function Sobre(){
+function Sobre() {
     return (
-        <div>
-            <h1>Sobre</h1>
-            <p>Site criado por: Amanda, Pedro e Vitor.</p>
-            <Link to='/'>Voltar para Home</Link>
-        </div>
+        <Layout>
+            <div>
+                <h1>Sobre</h1>
+                <p>Site criado por: Amanda, Pedro e Vitor.</p>
+                <Link to='/'>Voltar para Home</Link>
+            </div>
+        </Layout>
     )
 }
 
